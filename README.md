@@ -68,3 +68,9 @@ go build -o bin/myapp ./cmd/myapp
 ![build_curl.go](img/build.go.curl.png)
 
 Ответы `curl` совпадают с предыдущим шагом.
+
+## Структура проекта
+
+'''bash
+
+![structure.go](img/structure.png)
