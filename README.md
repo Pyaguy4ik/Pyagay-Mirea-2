@@ -71,6 +71,4 @@ go build -o bin/myapp ./cmd/myapp
 
 ## Структура проекта
 
-'''bash
-
 ![structure.go](img/structure.png)
