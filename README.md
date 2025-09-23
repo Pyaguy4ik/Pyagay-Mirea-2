@@ -48,6 +48,7 @@ go mod init myapp
 ```bash
 go run ./cmd/myapp
 ```
+![run.go](img/run.go.png)
 
 Проверка запущенного API (в другом терминале):
 
