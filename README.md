@@ -65,7 +65,6 @@ go build -o bin/myapp ./cmd/myapp
 ./bin/myapp
 ```
 
-![build.go](img/build.go.png)
-![build_curl.go](img/build_curl.go.png)
+![build_curl.go](img/build.go.curl.png)
 
 Ответы `curl` совпадают с предыдущим шагом.
