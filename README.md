@@ -48,7 +48,7 @@ go mod init myapp
 ```bash
 go run ./cmd/myapp
 ```
-![run.go](img/run.go.png)
+![run.go](img/go.run.png)
 
 Проверка запущенного API (в другом терминале):
 
@@ -56,8 +56,7 @@ go run ./cmd/myapp
 curl http://localhost:8081/Hello
 curl http://localhost:8081/ping
 ```
-
-![run](img/run.png)
+![curl](img/curl.png)
 
 ## Сборка бинарника
 
@@ -66,6 +65,6 @@ go build -o bin/myapp ./cmd/myapp
 ./bin/myapp
 ```
 
-![build](img/build.png)
+![build.go](img/build.go.png)
 
 Заметим, что ответы `curl` совпадают с предыдущим шагом.
